@@ -58,3 +58,33 @@
 .block:hover .block-name {
   opacity: 1;
 }
+
+.block-select {
+}
+
+.block-config-row {
+  display: flex;
+  gap: 16px;
+}
+
+.block-select-option {
+  display: flex;
+  align-items: center;
+}
+
+.block-select-option-image {
+  height: 1em;
+  width: 1em;
+  object-fit: cover;
+  object-position: top;
+  display: inline-block;
+  padding-right: 0.5ch;
+}
+
+.block-config-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px;
+  margin-bottom: 16px;
+  max-width: 900px;
+}
