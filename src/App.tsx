@@ -48,7 +48,12 @@ function App() {
 
   const [width, setWidth] = useState(8);
   const [height, setHeight] = useState(5);
-  const [blocks, setBlocks] = useState<string[]>(["acacia_trapdoor"]);
+  const [blocks, setBlocks] = useState<string[]>([
+    "log_spruce",
+    "log_spruce_top",
+    "planks_spruce",
+    "stripped_spruce_log",
+  ]);
   const [searchText, setSearchText] = useState<string>("");
 
   const searchFilteredBlocks = useMemo(() => {
