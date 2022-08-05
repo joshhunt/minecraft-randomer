@@ -6,14 +6,7 @@ import React, {
   useState,
 } from "react";
 import "./App.css";
-import Select, {
-  components,
-  GroupBase,
-  MenuListProps,
-  MultiValue,
-  OptionProps,
-  SingleValue,
-} from "react-select";
+import Select, { MultiValue } from "react-select";
 
 function getRandomInt(min: number, max: number) {
   min = Math.ceil(min);
